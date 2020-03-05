@@ -13,7 +13,7 @@ public class conta {
 
 	   public void sacar(double valorSaque){
            if (valorSaque <= saldo)
-		saldo = saldo - valorDeposito;
+		saldo = saldo - valorSaque;
 	      else
 		System.out.println("Saldo insuficiente!");
 
